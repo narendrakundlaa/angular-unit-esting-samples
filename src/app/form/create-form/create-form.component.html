@@ -1,0 +1,13 @@
+<app-alert [display]="displayAlert" [type]="alertType" [message]="alertMessage" (closeEvent)="closeAlert()">
+</app-alert>
+
+
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <h3 class="container"> Organisation Form </h3>
+    <app-input [name]="'name'" [placeholder]="'name'" [formGroup]="employeeForm"></app-input>
+    <app-input [name]="'designationOfEmploeeyee'" [placeholder]="'designationOfEmploeeyee'" [formGroup]="employeeForm"></app-input>
+    <app-input [name]="'salary'" [placeholder]="'salary'" [type]="'number'" [formGroup]="employeeForm"></app-input>
+    <div class="container">
+        <button type="submit" [disabled]="!employeeForm.valid" class="btn btn-info ">Submit</button>
+    </div>
+</form>

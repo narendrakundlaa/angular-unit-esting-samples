@@ -1,0 +1,98 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Narendra",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 2,
+      "name": "Chintu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 3,
+      "name": "Manoj",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 4,
+      "name": "Dhanu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 5,
+      "name": "Narendra",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 6,
+      "name": "Chintu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 7,
+      "name": "Manoj",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 8,
+      "name": "Dhanu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 9,
+      "name": "Narendra",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 10,
+      "name": "Chintu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 11,
+      "name": "Manoj",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    },
+    {
+      "id": 12,
+      "name": "Dhanu",
+      "designation": "Software",
+      "salary": 2000,
+      "dob": "09/09/1989"
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

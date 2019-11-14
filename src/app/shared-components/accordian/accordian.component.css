@@ -1,0 +1,57 @@
+.mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    content: "\f078"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077"; /* fa-chevron-up */
+  }
+
+  #accordion{
+    margin: auto 20%;
+  }
+  a{
+      text-decoration: none;
+  }
+ 
+
+
+
+  /* accordian + or - */
+  .panel-group .panel {
+		border-radius: 5px;
+		border-color: #EEEEEE;
+        padding:0;
+	}
+
+	.panel-default > .panel-heading {
+		color: #fff;
+		background-color: #346767;
+		border-color: #EEEEEE;
+	}
+
+	.panel-title {
+		font-size: 14px;
+	}
+
+	.panel-title > a {
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+	}
+
+	.short-full {
+		float: right;
+		color:white;
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		border: solid 1px #EEEEEE;
+    background-color: #B7FFB7;
+        
+	}
